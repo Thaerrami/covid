@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-image: linear-gradient(to top, rgb(140, 217, 231),#3f95e6,#1d0d9d );
+    position: relative;
+}
+
+.headerimg{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -50px;
+   box-shadow:0 0 0 #f3f3f3;
+    border:4px  solid #ffffff;
+    box-sizing: content-box;
+}
+
+.white_hr{
+    border-top:2px solid white;
+    width: 100%;
+    margin: 5px 5%;
+}

@@ -1,0 +1,14 @@
+ <div class="col-4">
+        <a href={{route('doc.add.pat.view')}} class="btn btn-primary">Add new patient</a>{{route('doc.find.pat')}}{{route('doc.filterpat')}}
+      </div>
+    
+
+<div class="col-4 mb-1">
+   <a href={{route('doc.messages')}} class="btn btn-outline-info" >
+    <img src="{{asset('mp/message.svg')}}" width="40px" alt="">
+    Messages <span class={{$msgcnt>0?'text-danger':'text-dark'}}>{{$msgcnt}}</span>
+  </a>
+</div>
+
+{{route('doc.find.pat')}}
+{{route('doc.filterpat')}}

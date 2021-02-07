@@ -1,0 +1,23 @@
+.chart1{
+    width: 50vw;
+    height: 400px;
+    background: rgb(235, 235, 235);
+    border-radius: 10px;
+    left:4%;
+    position: relative;
+    margin: 40px auto;
+    border: 3px solid rgb(231, 231, 231);
+    box-shadow: 0 0 10px rgb(112, 112, 112);
+}
+
+
+
+.container-fluid::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .container-fluid {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

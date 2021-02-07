@@ -1,0 +1,28 @@
+.doc-messages{
+    position:fixed;
+    z-index: 10;
+    right: 1em;
+    bottom: 4em;
+    width:fit-content;
+    background-image:linear-gradient(to left, rgb(146, 253, 226),rgb(10, 181, 233)) ;
+    padding:4px 10px;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.288);
+    box-shadow:  2px 3px 5px rgba(66, 66, 66, 0.747);
+}
+
+.doc-messages a{
+    text-decoration: none;
+}
+
+
+.container-fluid::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .container-fluid {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
